@@ -1,1 +1,9 @@
 # Region_Growth_Projections
+
+##Project proposal
+
+The United States of America is a rapidly growing nation in many aspects, and for the near future, it appears this level of growth will continue. However, many regions of the country experience this growth at different rates, affecting their potential to be suitable for important things such as industry, tourism, and migration. This project aims to utilize historical data encompassing the growth of all states within the United States mainland, including Alaska and Hawaii. It involves categorizing each state by region and subsequently forecasting future population trends for the next ten years. These predictions rely on factors such as population changes and fertility rates (number of births). The data used in this project will be obtained via web scrapping with BeautifulSoup. The sources I intend to pull from are the Center for **Disease Control and Prevention (CDC)** and the **United States Census Bureau.**
+
+Due to the nature of this data being time series in nature, I believe that one of the best ways to visualize this data would be through line charts, due to the chart’s ability to depict trends over time, in addition to maintaining a level of clarity that allows for easy interpretation and pattern recognition. This will make it easier to spot trends and potential issues we may encounter when attempting to fit our model. 
+
+Lastly, I will be using the autoregressive integrated moving average **(A.R.I.M.A)** as my machine-learning algorithm in the prediction of regional data. While other algorithms work better with time series, ARIMA’s to mitigate overfitting (which becomes advantageous when dealing with noisy or complex patterns), capture complex relationships, and handle time-series data in a potential small dataset set make it a strong candidate for the task I have set out to accomplish.
