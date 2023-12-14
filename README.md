@@ -1,6 +1,6 @@
 # Region_Growth_Projections
 
-##Project proposal
+## Project proposal
 
 The United States of America is a rapidly growing nation in many aspects, and for the near future, it appears this level of growth will continue. However, many regions of the country experience this growth at different rates, affecting their potential to be suitable for important things such as industry, tourism, and migration. This project aims to utilize historical data encompassing the growth of all states within the United States mainland, including Alaska and Hawaii. It involves categorizing each state by region and subsequently forecasting future population trends for the next ten years. These predictions rely on factors such as population changes and fertility rates (number of births). The data used in this project will be obtained via web scrapping with BeautifulSoup. The sources I intend to pull from are the Center for **Disease Control and Prevention (CDC)** and the **United States Census Bureau.**
 
